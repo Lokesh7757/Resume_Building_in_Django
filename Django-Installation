@@ -1,0 +1,25 @@
+
+To install Django, follow these steps:
+
+Install Python: Make sure you have Python installed on your system. 
+
+Step - 1) Set Up a Virtual Environment (optional but recommended): It's a good practice to use a virtual environment to manage dependencies.
+python -m venv myenv
+Activate the virtual environment:
+Windows: myenv\Scripts\activate
+macOS/Linux: source myenv/bin/activate
+
+Step -2) Install Django: Use pip to install Django.
+pip install django
+Verify Installation: Check that Django is installed and see the version.
+
+Step- 3) Once you have Django installed, you can start a new project using:
+django-admin startproject myproject
+
+
+Step-4) And navigate into your project directory:
+cd myproject
+
+Step-5) From there, you can run the development server with:
+python manage.py runserver
+This will start a local server that you can access at http://127.0.0.1:8000/.
