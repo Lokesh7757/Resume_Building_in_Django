@@ -1,3 +1,11 @@
+Resume_Generating
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.home, name='home'),
+    path('resume/', views.gen_resume, name='resume'),
+=======
 """
 URL configuration for resume_builder project.
 
